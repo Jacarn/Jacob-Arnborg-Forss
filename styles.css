@@ -1,0 +1,728 @@
+html {
+    font-size: 18px;
+  }
+  
+  body {
+    font-family: 'Input Mono';
+    background-color: #ffffff;
+    margin: 0;
+  }
+
+.header {
+    font-family: 'Good Times';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    justify-content: space-between;
+    padding: 32px 40px 32px 40px;     background-color: #ffffff;
+    
+  }
+
+  .nav-ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 4px solid transparent;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+  }
+  .nav-link:hover {
+    border: 4px solid #000000;
+    padding: 20px;
+    color: black;
+  }
+
+  .nav-link:focus {
+    border: 4px solid coral;
+    padding: 20px;
+    color: coral;
+  }
+
+  .front {
+    display: box;
+    display: flex;
+    box-align: center;
+    align-items: center;
+    box-pack: center;
+    justify-content: center;
+    position: fixed;
+    }
+
+  .center-name {
+    line-height: 115px;
+    text-align: center;
+    font-family: 'Good Times';
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 0.03em;
+    margin: 200px 64px;
+    position: absolute;
+    padding-bottom: 900px;
+    }
+
+    .contactlink {
+      font-family: 'Good Times';
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 40px;
+      letter-spacing: 0.05em;
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      margin-bottom: 550px;
+      text-decoration: none;
+      color: #000000;
+
+        }
+    
+        .contactlink:hover {
+          border: 4px solid #000000;
+          padding: 20px;
+        }
+    
+        .contactlink:focus {
+          border: 4px solid coral;
+          padding: 20px;
+          color: coral;
+        }
+
+        .hero {
+          width: 100%;
+          position: relative;
+        }
+
+
+    /* about-page */
+    .header-about {
+      font-family: 'Good Times';
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 40px;
+      letter-spacing: 0.05em;
+      justify-content: space-between;
+      padding: 32px 40px 32px 40px; 
+      background-color: #ffffff;
+    }
+
+    .nav-ul-about {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0px 0px 0px 0px;
+      height: 88px;
+      padding: 0;
+    }
+  
+    .nav-link-about {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      border: 4px solid transparent;
+      padding: 20px;
+    }
+
+    .nav-link-about:hover {
+      border: 4px solid #000000;
+      padding: 20px;
+    }
+
+    .nav-link-about:focus {
+      border: 4px solid coral;
+      padding: 20px;
+      color: coral;
+    }
+
+    .nav-link-about-arrow {
+      border: 4px solid transparent;      margin: 20px;
+      display: flex;
+      align-items: center;
+
+    }
+
+    .nav-link-about-arrow:hover {
+      fill: coral;
+    }
+
+    .nav-link-about-arrow:focus {
+      fill: coral;
+    }
+  
+    .about-boxes {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .about-box-left {
+      display: flex;
+      position: relative;
+      flex-direction: column;
+      width: 50vw;
+      height: max-content;
+      background-color: transparent;
+    }
+
+    .about-box-right {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      width: 50vw;
+      padding-bottom: 40px;
+    }
+
+    .about-h1 {
+      font-family: 'Good Times';
+      font-weight: 400;
+      font-size: 72px ;
+      padding-left: 40px;
+      padding-top: 16px;
+      margin: 0;
+    }
+    .about-h2 {
+      font-family: 'Good Times';
+      font-weight: 400;
+      font-size: 16px ;
+      padding-left: 40px;
+      padding-top: 16px;
+      margin: 0;
+    }
+    .about-h3 {
+      font-family: 'Good Times';
+      font-weight: 400;
+      font-size: 16px ;
+      padding-left: 40px;
+      padding-top: 16px;
+      margin: 0;
+    }
+    .about-p {
+      font-family: 'Good Times';
+      font-weight: 400;
+      font-size: 16px ;
+      line-height: 20px;
+      padding: 16px 64px 16px 40px ;
+      margin: 0;
+    }
+    .about-h4 {
+      font-family: 'Good Times';
+      font-weight: 400;
+      font-size: 16px ;
+      padding-left: 40px;
+      padding-bottom: 20px;
+    }
+
+    .about-buttons {
+      /* background-color: #F5F5F0; */
+      font-family: 'Good Times';
+      color: #000000;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      display: flex;
+      justify-content: space-between;      padding: 25px 40px;
+      margin: 0;
+    }
+
+    /* .arrowdown {
+      background-color: #F5F5F0;       padding: 8px 0px 8px 0px;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+    } */
+
+    .about-buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      list-style-type: none;
+      align-items: center;
+    }
+
+    .aboutbutton {
+      text-decoration: none;
+      color: #000000;
+      font-family: 'Good Times';
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 40px;
+      letter-spacing: 0.05em;
+    }
+
+    .sand {
+background-image: url("assets/Img/wolfgang-hasselmann-L4VxDFJmaOM-unsplash\ 1.jpg") ;
+width: 100vw;
+    }
+
+    .about1 {
+      height: fit-content;
+      /* background-color: #F5F5F0;       */
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-bottom: 40px;
+
+    }
+
+    .text_what_I_do {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: fit-content;
+      gap: 8px;
+      width: 30vw;
+      padding: 64px 32px 40px 40px;
+    }
+
+    .h1-what_I_do {
+      /* font-family: 'Good Times';
+      font-weight: 400; */
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    .h2-what_I_do {
+      font-family: 'Good Times';
+      font-weight: 400;
+      font-size: 16px;
+    }
+
+    .programs {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      width: fit-content;
+      gap: 8px;
+      padding: 64px 40px 40px 32px;
+    }
+
+    .programline {
+      font-family: 'Good Times';
+      font-weight: 300;
+      font-size: 32px;
+      line-height: 40px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: fit-content;
+      padding: 0px;
+      gap: 12px;
+    }
+
+    .about2 {
+      display: block;
+      padding: 40px;
+      /* background-color: #F5F5F0; */
+    }
+
+    .line {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .time {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-family: 'Good Times';
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 48px;
+      align-items: flex-end;
+      margin: 0;
+    }
+
+    .works {
+      display: flex;
+      flex-direction: row;      justify-content: space-between;
+      overflow: scroll;
+      margin-left: auto;
+      margin-right: auto;
+      width: auto;
+      scroll-snap-type: x mandatory;
+      overflow-y: hidden;
+
+    }
+
+    .works::-webkit-scrollbar {
+      height: 40px;
+      background-color: transparent;
+    }
+
+    .works::-webkit-scrollbar-thumb {
+      height: 40px;
+      background-color: coral;
+    }
+
+    .child{
+      color: black;
+      text-align: left;
+      padding: 0 40px 60px 40px;
+      min-width: 300px;
+    }
+
+    .workh1 {
+      font-family: 'Good Times';
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    .workh2 {
+      font-size: 20px;
+      line-height: 20px;
+    }
+
+    .workh3 {
+      font-size: 16px;
+      line-height: 20px;
+    }
+
+    .howlong {
+      font-size: 16px;
+      line-height: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 40px;
+      padding: 20px 40px;
+    }
+
+    @media (max-width: 940px) {
+      .about1 {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .about-boxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        }
+
+        .about-box-right{
+          display: none;
+        }
+
+      .text_what_I_do {
+        width: 80vw ;
+       }
+
+       .about-p {
+        width: 80vw ;
+       }
+
+       .works {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        height: auto; 
+        overflow: visible; 
+        overflow-y: visible;
+        width: 500px;
+    }
+
+    .time {
+display: none;     
+}
+
+.sand {
+  background-image: none; 
+  background-color: coral;    
+  } }
+
+
+
+
+    /* Projects */
+
+    .header-projects {
+      font-family: 'Good Times';
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 40px;
+      letter-spacing: 0.05em;
+      justify-content: space-between;
+      padding: 32px 40px 32px 40px; 
+      /* background-color: #ffffff; */
+    }
+
+    .nav-ul-projects {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 88px;
+      margin: 0px 0px 0px 0px;
+      padding: 0;
+    }
+  
+    .nav-link-projects {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      border: 4px solid transparent;
+      padding: 20px;
+    }
+    .nav-link-projects:hover {
+      border: 4px solid #000000;
+      padding: 20px;
+    }
+    .nav-link-projects:focus {
+      border: 4px solid coral;
+      padding: 20px;
+      color: coral;
+    }
+
+    .nav-link-projects-arrow {
+      border: 4px solid transparent;
+      margin: 20px;
+      display: flex;
+      align-items: center;
+      fill: #000000;
+    }
+
+    .nav-link-projects-arrow:hover {
+      fill: coral;
+    }
+
+    .nav-link-projects-arrow:focus {
+      fill: coral;
+    }
+
+    .icon:hover {
+      fill: coral;
+    }
+
+    .projects-boxes {
+      background-image: url(assets/Img/anchor-lee-kO1G3neRA2o-unsplash.jpg);
+      display: flex;
+      flex-direction: row;
+      position: fixed;
+      height: 100vh;
+    }
+
+    .projects-box-left {
+      display: flex;
+      justify-content: center;
+      width: 50vw;
+      height: 500px;
+      margin: 0;
+      padding: 0;
+      object-fit: scale-down contain;
+    }
+
+    .probild {
+      display: flex;
+      width: 30vw;
+      margin: 40 0;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 40px;
+      object-fit: contain;
+    }
+    .projects-box-right {
+      display: flex;
+      text-decoration: none;
+      position: relative;
+      padding: 40px;
+      width: 50vw;
+      flex: 1 1 auto;
+      /* background-color: #F5F5F0; */
+    }
+
+    .projects-list {
+      font-family: 'Good Times';
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 52px;
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: flex-start;
+      gap: 40px;
+      margin : 0;
+      padding: 40px;
+    }
+  .projects-link {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .projects-link:hover {
+    text-decoration: none;
+    color: coral;
+  }
+
+    @media (max-width: 700px) {
+
+    }
+
+
+    /* 48h */
+    .header-48 {
+      padding: 32px 40px 32px 40px; 
+      background-color: #ffffff;
+    }
+
+    .nav-ul-48 {
+      list-style-type: none;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      height: 88px;
+      margin: 0px 0px 0px 0px;
+      padding: 0;
+    }
+
+    .nav-link-48-arrow {
+      border: 4px solid transparent;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      fill: #000000;
+    }
+
+    .nav-link-48-arrow:hover {
+      border: 4px solid #000000;
+      padding: 20px;
+      fill: #000000;
+    }
+
+    .nav-link-48-arrow:focus {
+      border: 4px solid coral;
+      padding: 20px;
+      color: coral;
+      fill: coral;
+    }
+
+    .materialh {
+      display: flex;
+      justify-content: space-between;
+    }
+
+
+    .hbild {
+      width: 390px;
+      height: auto;
+      padding: 0 40px 40px 40px;
+    }
+
+    /* ELLY */
+
+    .header-ELLY {
+      padding: 32px 40px 32px 40px; 
+      background-color: #ffffff;
+    }
+
+    .nav-ul-ELLY {
+      list-style-type: none;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      height: 88px;
+      margin: 0px 0px 0px 0px;
+      padding: 0;
+    }
+
+    .nav-link-ELLY-arrow {
+      border: 4px solid transparent;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      fill: #000000;
+    }
+
+    .nav-link-ELLY-arrow:hover {
+      fill: coral;
+    }
+
+    .nav-link-ELLY-arrow:focus {
+      fill: coral;
+    }
+
+    .presentationelly {
+       width: 50vw;
+       display: flex;
+       flex-direction: column;
+       float: left;
+    }
+
+    /* contact */
+
+    .header-cont {
+      padding: 32px 40px 32px 40px; 
+      background-color: #ffffff;
+    }
+
+    .nav-ul-cont {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 88px;
+      margin: 0px 0px 0px 0px;
+      padding: 0;
+    }
+
+    .nav-link-cont-arrow {
+   
+      margin: 20px;
+      display: flex;
+      align-items: center;
+      fill: #000000;
+    }
+
+    .nav-link-cont-arrow:hover {
+      fill: coral;
+    }
+
+    .nav-link-cont-arrow:focus {
+      fill: coral;
+    }
+
+
+
+    .cont {
+background-image: url(assets/Img/marissa-rodriguez-2mKYEVGA4jE-unsplash.jpg); 
+width: 100vw;
+position: fixed;
+font-family: 'Good Times';
+font-weight: 400;
+font-size: 32px;
+line-height: 40px;
+letter-spacing: 0.05em;
+   }
+
+   .conth1 {
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+   }
+
+   .contlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+   }
+
+  .contsvg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px 0;
+  }

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Projects-Page</title>
+  </head>
+  <body>
+    <div class="header-projects">
+      <nav>
+        <ul class="nav-ul-projects">
+          <li>
+            <a class="nav-link-projects" href="about.html">ABOUT ME</a>
+          </li>
+          <li>
+            <a class="nav-link-projects-arrow" href="index.html">
+              <svg
+                class="icon"
+                width="224"
+                height="31"
+                viewBox="0 0 224 31"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M207.493 4.2129L206.108 2.77013L208.993 0L210.378 1.44277L222.378 13.9428L223.708 15.3278L222.378 16.7129L210.378 29.2129L208.993 30.6557L206.108 27.8855L207.493 26.4428L216.243 17.328H0.000213623V13.328H216.243L207.493 4.2129Z"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="projects-boxes">
+      <div class="projects-box-left">
+        <img
+          class="probild"
+          src="assets/Img/Rectangle 3.png"
+          alt="Webee"
+          id="magic"
+        />
+      </div>
+
+      <div class="projects-box-right">
+        <ul class="projects-list">
+          <li>
+            <a
+              class="projects-link"
+              href="48h.html"
+              onmouseenter="changeimg('assets/Img/48h.png')"
+              onmouseleave="changeimg('assets/Img/Rectangle 3.png')"
+              >48H</a
+            >
+          </li>
+          <li>
+            <a
+              class="projects-link"
+              href="ELLY.html"
+              onmouseenter="changeimg('assets/Img/ELLY.png')"
+              onmouseleave="changeimg('assets/Img/Rectangle 3.png')"
+              >ELLY</a
+            >
+          </li>
+          <li>
+            <a
+              class="projects-link"
+              href="#"
+              onmouseenter="changeimg('assets/Img/Webee.png')"
+              onmouseleave="changeimg('assets/Img/Rectangle 3.png')"
+              >Webee</a
+            >
+          </li>
+          <li>
+            <a
+              class="projects-link"
+              href="#"
+              onmouseenter="changeimg('assets/Img/Partinder.png')"
+              onmouseleave="changeimg('assets/Img/Rectangle 3.png')"
+              >Partinder</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <script>
+        function changeimg(imgchanger) {
+          document.getElementById("magic").src = imgchanger;
+        }
+      </script>
+    </div>
+  </body>
+</html>
